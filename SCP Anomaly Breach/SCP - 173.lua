@@ -43,4 +43,4 @@ while wait() do
 end
         end
 
-espChildren("Base","SCP173","SCP-173",255,0,0)
+espChildren("Base","SCP173","SCP-173",255,155,155)
