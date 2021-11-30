@@ -43,4 +43,4 @@ while wait() do
 end
         end
 
-espChildren("Torso","SCP457","SCP-457",255,0,0)
+espChildren("Torso","SCP457","SCP-457",255,165,0)
