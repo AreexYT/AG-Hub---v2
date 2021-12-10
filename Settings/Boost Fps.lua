@@ -1,3 +1,5 @@
+-- Boost Fps
+
 if not game:IsLoaded() then repeat wait() until game:IsLoaded() end
 if hookfunction and setreadonly then
 	local mt = getrawmetatable(game)
