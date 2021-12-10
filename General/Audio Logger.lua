@@ -1,3 +1,5 @@
+-- Audio Logger
+
 aa = game:GetObjects("rbxassetid://01997056190")[1]
 aa.Parent = game.CoreGui
 wait(0.2)
