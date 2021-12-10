@@ -1,4 +1,4 @@
---Shit ass script made by failedmite57926
+-- FE - Small
 
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Character = LocalPlayer.Character
