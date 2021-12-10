@@ -1,3 +1,5 @@
+-- FPS Counter
+
 frames = nil
 
 local RunService = game:GetService("RunService")
