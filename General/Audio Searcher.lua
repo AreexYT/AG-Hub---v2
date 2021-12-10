@@ -1,4 +1,4 @@
---// Made by xxCloudd
+-- Audio Searcher
 
 if getgenv().MjXRqQs7cjVu8 then -- reload
 	getgenv().MjXRqQs7cjVu8:Destroy()
