@@ -1,3 +1,5 @@
+-- Audio Bypass
+
 if game.CoreGui:FindFirstChild("RadioGui") then game.CoreGui:FindFirstChild("RadioGui"):Destroy() end
 local gui = Instance.new("ScreenGui", game.CoreGui)
 gui.Name = "RadioGui"
