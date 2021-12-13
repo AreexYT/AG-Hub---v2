@@ -639,9 +639,7 @@ do
 				return
 			end
 			
-			if callback then
-				callback(true)
-			end
+			wait (3)
 			
 			close()
 		end)
@@ -652,9 +650,7 @@ do
 				return
 			end
 			
-			if callback then
-				callback(false)
-			end
+			wait (3)
 			
 			close()
 		end)
