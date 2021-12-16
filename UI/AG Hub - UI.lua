@@ -605,7 +605,7 @@ do
 			Size = UDim2.new(0, 0, 0, 60),
 			Position = UDim2.new(1, 0, 0, 0)
 		}, 0.2)
-			
+		
 		-- callbacks
 		local active = true
 		local close = function()
@@ -645,7 +645,6 @@ do
 			
 			close()
 		end)
-		end
 		
 		notification.Decline.MouseButton1Click:Connect(function()
 		
