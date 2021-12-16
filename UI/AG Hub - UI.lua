@@ -605,29 +605,7 @@ do
 			Size = UDim2.new(0, 0, 0, 60),
 			Position = UDim2.new(1, 0, 0, 0)
 		}, 0.2)
-		
-		
-		if not active then
-		return
-		end
 			
-		active = false
-		notification.ClipsDescendants = true
-
-		library.lastNotification = notification.Position
-		notification.Flash.Position = UDim2.new(0, 0, 0, 0)
-		utility:Tween(notification.Flash, {Size = UDim2.new(1, 0, 1, 0)}, 0.2)
-
-		wait(0.2)
-		utility:Tween(notification, {
-		Size = UDim2.new(0, 0, 0, 60),
-		Position = notification.Position + UDim2.new(0, textSize.X + 70, 0, 0)
-		}, 0.2)
-
-		wait(0.2)
-		notification:Destroy()
-		end
-	
 		-- callbacks
 		local active = true
 		local close = function()
