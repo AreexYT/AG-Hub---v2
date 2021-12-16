@@ -632,7 +632,7 @@ do
 		end
 		
 		if notification == true then
-			wait(5)
+			wait(1)
 			close()
 		else
 		
