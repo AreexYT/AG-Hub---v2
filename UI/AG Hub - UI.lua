@@ -631,7 +631,8 @@ do
 			notification:Destroy()
 		end
 		
-		if notification == true then
+		if active == true
+		then
 			wait(1)
 			close()
 		else
