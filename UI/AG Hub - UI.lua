@@ -631,6 +631,11 @@ do
 			notification:Destroy()
 		end
 		
+		if notification == true then
+			wait(5)
+			close()
+		else
+		
 		self.activeNotification = close
 		
 		notification.Accept.MouseButton1Click:Connect(function()
@@ -645,6 +650,7 @@ do
 			
 			close()
 		end)
+		end
 		
 		notification.Decline.MouseButton1Click:Connect(function()
 		
