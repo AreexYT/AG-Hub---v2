@@ -19,6 +19,6 @@ fps = CreateInstance("TextLabel", {BackgroundColor3=Color3.fromRGB(255, 255, 255
 
 local loop = "chimkin"
 repeat
-	wait(.25)
+	wait(.01)
 fps.Text = (frames)
 until loop == "rice"
