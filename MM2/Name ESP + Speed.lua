@@ -9,7 +9,7 @@ getgenv().Settings = {
 	AutoPickupGun = false,      -- Automatically picks up the gun when its dropped
 	UnlockEmotes = false,
 	-- Player
-	WalkSpeed = 18,             -- Default: 16
+	WalkSpeed = 22,             -- Default: 16
 	JumpPower = 60,             -- Default: 50
 	FieldOfView = 80,           -- Default: 70
 	CameraMode = "Invisicam",   -- "Zoom" or "Invisicam"
