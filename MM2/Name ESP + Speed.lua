@@ -1,4 +1,4 @@
--- Name ESP + Speed
+-- Murder Mystery 2 Utilities by zzerexx#3970
 getgenv().Settings = {
 	Enabled = true,
 	Notifications = true,       -- Receive notifications upon toggling features
