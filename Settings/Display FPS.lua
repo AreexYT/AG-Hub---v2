@@ -23,7 +23,7 @@ P I N G   C O U N T E R   >   F P S   C O U N T E R
 	textlab.TextSize = 30
 	textlab.Text = ""
 	textlab.BackgroundColor3 = Color3.new(0, 0, 0)
-	textlab.Position = UDim2.new(0.47, 0, -0.035, 0)
+	textlab.Position = UDim2.new(0.2, 0, -0.035, 0)
 	textlab.TextXAlignment = Enum.TextXAlignment.Right
 	textlab.BorderSizePixel = 0
 	textlab.Parent = game.CoreGui.RobloxGui
