@@ -52,7 +52,7 @@ spawn(function()
         wait(0)
         local ping = tonumber(game:GetService("Stats"):FindFirstChild("PerformanceStats").Ping:GetValue())
         ping = math.floor(ping)
-        textlab.Text = ping.."ms"
+        textlab.Text = ping.."ms - Ping"
         if ping > 1000 then
             textlab.TextColor3 = Color3.new(0, 0, 0)
         elseif ping > 300 then
