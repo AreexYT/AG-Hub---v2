@@ -64,5 +64,3 @@ spawn(function()
         end
     until textlab == nil
 end)
-
-print ("ping")
